@@ -2,6 +2,8 @@
 
 ![./screenshot.png](./screenshot.png)
 
+[PixiJS](https://pixijs.io) prototype using RenderTexture. [View prototype](https://mauriciomassaia.github.io/pixi-trailing-texture/)
+
 ### Scripts
 
 Install dependencies:
