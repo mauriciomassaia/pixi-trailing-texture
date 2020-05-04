@@ -19,18 +19,20 @@ const stripes = new Graphics()
 const total = 10
 const w = WIDTH / total
 const h = HEIGHT / total
+const stripeColor1 = 0x7a7a78
+const stripeColor2 = 0xfbcb00
 
 for (var i = 0; i < total; i++) {
   stripes
     // top left half
-    .beginFill(i % 2 === 0 ? 0xff0000 : 0x00ff00, 1)
+    .beginFill(i % 2 === 0 ? stripeColor1 : stripeColor2, 1)
     .moveTo(i * w, 0)
     .lineTo((i + 1) * w, 0)
     .lineTo(0, h * (i + 1))
     .lineTo(0, h * i)
 
     // bottom right half
-    .beginFill(i % 2 === 0 ? 0xff0000 : 0x00ff00, 1)
+    .beginFill(i % 2 === 0 ? stripeColor1 : stripeColor2, 1)
     .moveTo(WIDTH, h * i)
     .lineTo(WIDTH, h * (i + 1))
     .lineTo(w * (i + 1), HEIGHT)
