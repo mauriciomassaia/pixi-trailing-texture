@@ -1,6 +1,6 @@
 # pixi-trailing-texture
 
-![./screenshot.png](./screenshot.png)
+![./screenshot.jpg](./screenshot.jpg)
 
 [PixiJS](https://pixijs.io) prototype using RenderTexture. [View prototype](https://mauriciomassaia.github.io/pixi-trailing-texture/)
 
