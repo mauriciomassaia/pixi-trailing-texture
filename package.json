@@ -13,7 +13,7 @@
     "pixi.js": "^6.2.1"
   },
   "devDependencies": {
-    "parcel": "^2.0.1",
-    "standard": "^14.3.3"
+    "parcel": "^2.2.0",
+    "standard": "^16.0.4"
   }
 }
